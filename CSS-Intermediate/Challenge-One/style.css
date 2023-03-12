@@ -1,0 +1,37 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wrap {
+    background-color: rgb(14, 67, 166);
+    position: relative;
+    width: 700px;
+    height: 500px;
+}
+
+#nav {
+    background-color: rgb(112, 182, 228);
+    float: left;
+    height: 410px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+#content {
+    background-color: rgb(41, 117, 204);
+    height: 410px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 15px 10px 180px;
+    text-align: center;
+}
+
+#content li {
+    list-style: none;
+}
+
+.copyright {
+    clear: both;
+    font-size: 0.8em;
+
+}
