@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    border: 3px solid black;
+  }
+
+  .box-green {
+    background-color: rgb(168, 102, 230);
+    width: 100%;
+    height: 20%;
+  }
+
+  .box-green, .box-orange, .box-red, .box-blue {
+    border: 3px solid black;
+  }
+
+  .box-orange, .box-red, .box-blue, .pict {
+    width: 100%;
+    height: 150px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    gap : 30px;
+    margin-top: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: inherit;
+  }
+
+  .box-orange {
+    background-color: rgb(255, 110, 110);
+  }
+
+  .box-red {
+    background-color: rgb(57, 205, 44);
+  }
+
+  .box-blue {
+    background-color: rgb(251, 151, 64);
+  }
