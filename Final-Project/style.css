@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url("1647881946_68-logo.png");
+    padding-bottom: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    margin: 20px;
+  }
+
+  .line {
+    background-color: brown;
+    height: 0.5px;
+    width: 70%;
+    margin: auto;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+
+  nav a:hover {
+    color: darksalmon;
+  }
+
+  #autor {
+    margin-right: 20px;
+    width: 30%;
+    height: 100%;
+  }
+
+  .biogr {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+
+  .portfolio {
+    width: 15%;
+    margin: 7px;
+    transition: all 1s;
+  }
+
+  .portfolio:hover {
+    transform: scale(3);
+  }
+
+  #portfolio {
+    width: 71%;
+    margin: auto;
+  }
+
+  footer{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer img {
+    margin: 20px;
+  }
+
+  #logoBS {
+    height: 80px;
+    margin-top: 0px;
+  }
+
+  #copyright {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+  }
